@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+
+    <style>
+        nav {
+            position: absolute;
+            top: 100px;
+        }
+
+        #mySidenav a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            margin-top: 15px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 50px 50px 0;
+        }
+
+        #mySidenav a:hover {
+            left: 0;
+        }
+
+        #about {
+            top: 100px;
+            background-color: #04AA6D;
+        }
+
+        #blog {
+            top: 160px;
+            background-color: #2196F3;
+        }
+
+        #projects {
+            top: 220px;
+            background-color: #f44336;
+        }
+
+        #contact {
+            top: 280px;
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="nav">
+        <h1>Hoverable side navigation bar :</h1>
+        <p>Open the buttons by hovering over them</p>
+    </div >
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="about">About</a>
+        <a href="#" id="blog">Blog</a>
+        <a href="#" id="projects">Projects</a>
+        <a href="#" id="contact">Contact</a>
+    </div>
+
+</body>
+
+</html>
